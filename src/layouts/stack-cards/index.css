@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  /* height: 100vh; */
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #416897;
+  font-family: 'CircularStd';
+  opacity: 1; /* Firefox */
+}
+
+.App-header {
+  background-color: #a3d3f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cards-top-box {
+  /* background-color: #395b85; */
+  background-image: linear-gradient(180deg, #416897 0%, #1B2D43 100%);
+  width: 20.1%;
+  height: 10px;
+  padding: 0px 12px;
+}
+
+.cards-box-header {
+  display: flex;
+  background-color: #ffffff;
+  width: 20.1%;
+  height: 56px;
+  padding: 0px 12px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 65px;
+  height: 15px;
+}
+
+.header-reference {
+  font-family: 'CircularStd';
+  text-align: end;
+  color: #2E4A6C;
+  font-size: 8px;
+  margin-bottom: 0;
+}
+.header-id {
+  font-family: 'CircularStd';
+  color: #2E4A6C;
+  font-size: 9px;
+  margin-top: 0;
+}
+
+.cards-main {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, #416897 0%, #1B2D43 100%);
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  width: 21.6%;
+  height: 520px;
+  margin-bottom: 0px;
+  /* padding: 0px 12px; */
+}
+
+.main-title {
+  font-size: 14px;
+  margin-top: 18px;
+  text-align: center;
+  font-family: 'CircularStd-Bold';
+}
+
+.hello-user {
+  font-size: 14px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'CircularStd';
+}
+
+.user-intro {
+  font-size: 10px;
+  margin-top: 6px;
+  width: 54.5%;
+  text-align: center;
+  font-family: 'CircularStd';
+}
+
+.cards-dashed-border {
+  border-style: dashed;
+  border-width: 0.8px;
+  border-color: "#ffffff";
+  width: 87.2%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.card-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 86.6%;
+}
+
+.merchant {
+  width: 12.5%; /* 25px; */
+  /* height: 8px; */
+}
+
+.card-number {
+  width: 36.5%;
+  font-family: 'CircularStd';
+  font-size: 14px;
+}
+
+.checkbox {
+  width: 6%;
+}
+
+.stroke {
+  font-size: 11px;
+  color: #416897;
+}
+
+.new-card-btn {
+  width: 90.9%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  margin-top: 15px;
+  background-color: rgba(158, 209, 241, 0.95);
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.btn-text {
+  font-family: 'CircularStd-Bold';
+  color: #2E4A6C;
+  font-size: 10px;
+}
+
+.add-circle {
+  width: 5.7%;
+  margin-left: 4.3%;
+}
+
+.cards-return-text {
+  font-size: 8px;
+  margin-top: 83px;
+  color: rgba(158, 209, 241, 0.9);
+}
+
+.cards-polygon {
+  width: 21.8%;
+  margin-top: -3px;
+}

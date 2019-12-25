@@ -36,7 +36,7 @@ export default class StackId extends Component {
             <p className="new-text">New to Stacks?</p>
 
             <p className="sign-in-reg"><Link to="/register"><u className="create-id-click">Click here </u></Link>to create an ID in seconds</p>
-            <u className="return-text">RETURN TO MERCHANT SITE</u>
+            <Link to="/cards"><u className="return-text">RETURN TO MERCHANT SITE</u></Link>
           </div>
           <img src={polygon} alt="" className="polygon" />
           <div className="secure-row">
