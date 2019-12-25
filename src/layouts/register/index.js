@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../assets/stacks.png';
-import profile from '../assets/user.png';
-import mastercard from '../assets/mastercard.png';
-import './styles.css';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/stacks.png';
 
-export default class Home extends Component {
+import profile from '../../assets/user.png';
+import mastercard from '../../assets/mastercard.png';
+import './home.css';
+
+export default class Register extends Component {
   render() {
     return (
       <div className="App">
@@ -16,7 +18,7 @@ export default class Home extends Component {
               <p className="header-reference">REFERENCE ID</p>
               <p className="header-id">#994849839298</p>
             </div>
-          </div>
+        </div>
           <div className="main">
             <p className="main-title">Get onboard with ease</p>
 
@@ -92,7 +94,7 @@ export default class Home extends Component {
               </div>
             </div>
 
-            <p className="sign-in">Sign In to your stacks account</p>
+            <p className="sign-in"><Link className="sign-in-link" to="/stack-id" >Sign In</Link> to your stacks account</p>
           </div>
         </div>
       </div>
